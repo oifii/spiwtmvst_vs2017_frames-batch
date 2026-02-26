@@ -1,0 +1,148 @@
+/*
+ * Copyright (c) 2015-2016 Stephane Poirier
+ *
+ * stephane.poirier@oifii.org
+ *
+ * Stephane Poirier
+ * 3532 rue Ste-Famille, #3
+ * Montreal, QC, H2X 2L1
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+#ifndef _VOROGUI_H
+#define _VOROGUI_H
+
+//2021nov29, spi, begin
+//major revision
+
+#define VOROGUI_X_BORDER 2.0
+#define VOROGUI_Y_BORDER 2.0
+#define VOROGUI_X_RESOLUTION 1.0
+#define VOROGUI_Y_RESOLUTION 1.0
+
+#define VOROGUI_X_RIGHTMARGIN 80.0
+
+#define VOROGUI_FRAMEEDGE_NUMBEROFPOINT_X	40
+#define VOROGUI_FRAMEEDGE_NUMBEROFPOINT_Y	20
+//#define VOROGUI_FRAMEEDGE_NUMBEROFPOINT_X	400
+//#define VOROGUI_FRAMEEDGE_NUMBEROFPOINT_Y	200
+
+
+//exclusive
+#define VOROGUI_DEBUG_CONTROLS						2
+#define VOROGUI_DEBUG_VORONOIDIAGRAM				4
+//exclusive
+#define VOROGUI_DISPLAY_CONTROLS_NOTCLUSTERED						0
+#define VOROGUI_DISPLAY_CONTROLS_CLUSTERED							1
+//exclusive
+#define VOROGUI_DISPLAY_CONTROLS_RANDOM_COMPLETELY					2
+#define VOROGUI_DISPLAY_CONTROLS_GRIDLIKE							4
+#define VOROGUI_DISPLAY_CONTROLS_GRIDLIKE_RANDOMIZED				8
+#define VOROGUI_DISPLAY_CONTROLS_LISTLIKE_VERTICAL					16
+#define VOROGUI_DISPLAY_CONTROLS_LISTLIKE_VERTICAL_RANDOMIZED		32
+#define VOROGUI_DISPLAY_CONTROLS_LISTLIKE_HORIZONTAL				64
+#define VOROGUI_DISPLAY_CONTROLS_LISTLIKE_HORIZONTAL_RANDOMIZED		128
+
+#ifndef COMPILING_C_VOROGUI_CPP
+extern int vorogui_clustermodes[];
+extern int numberofvoroguiclustermodes;
+#endif
+
+//defined in oifiilib
+//#define POINTSET_ALL	-1
+//#define POINTSET_NONE	-2
+
+
+class VOROGUI
+{	
+public:
+	class Synth* global_pSynth;
+	//vector<CWindowParameter*> global_windowparameterpointers;
+	vector<CWindowParameter*>* p_windowparameterpointers;
+
+	int vorogui_xwidth;
+	int vorogui_yheight;
+
+	//vorogui globals
+	int vorogui_numberofframepoints;
+	int vorogui_numberofpoints;
+	int vorogui_itriseed;
+	bool vorogui_displaytextlabelflag;
+	int vorogui_idpointtobemoved;
+
+	//2021nov29, spi, begin
+	int vorogui_clustermode;
+	int vorogui_idpointdirty;
+	int vorogui_prevclustermode;
+	int vorogui_clustermodesindex;
+	//2021nov29, spi, end
+
+public:
+	VOROGUI()
+	{
+		global_pSynth = NULL;
+
+		vorogui_xwidth = 1920;
+		vorogui_yheight = 1080;
+
+		//vorogui globals
+		vorogui_numberofframepoints = 0;
+		vorogui_numberofpoints = 0;
+		vorogui_itriseed = 0;
+		vorogui_displaytextlabelflag = false;
+		vorogui_idpointtobemoved = -1;
+
+		//2021nov29, spi, begin
+		vorogui_clustermode = VOROGUI_DISPLAY_CONTROLS_NOTCLUSTERED | VOROGUI_DISPLAY_CONTROLS_RANDOM_COMPLETELY;
+		vorogui_idpointdirty = POINTSET_ALL;
+		vorogui_prevclustermode = vorogui_clustermode;
+		vorogui_clustermodesindex = -1;
+		//2021nov29, spi, end
+	}
+	~VOROGUI()
+	{
+		//VOROGUI doesn't own global_pSynth, so no need to delete it
+		//VOROGUI doesn't own p_windowparameterpointers, so no need to delete it
+	}
+public:
+	void GetParameter(int index, float &min, float &max, float &value, string &name);
+	void SetParameter(int index, float ratio);
+	int getclustermode();
+	int setclustermode(int clustermode);
+	int setclustermode_toggletonext();
+
+};
+
+VOROGUI* VOROGUI_Init(class Synth* pSynth, vector<CWindowParameter*> &windowparameterpointers, int xwidth, int yheight, int voroguiclustermode = VOROGUI_DISPLAY_CONTROLS_NOTCLUSTERED | VOROGUI_DISPLAY_CONTROLS_RANDOM_COMPLETELY);
+void VOROGUI_Terminate(VOROGUI* pVOROGUI);
+
+POINTSET* VOROGUI_CreatePointset(VOROGUI* pVOROGUI, bool buildtinflag = true);
+void VOROGUI_DestroyPointset(VOROGUI* pVOROGUI, POINTSET* pPOINTSET);
+
+bool VOROGUI_NeedsRescale(VOROGUI* pVOROGUI, POINTSET* pPOINTSET);
+void VOROGUI_DrawPointset(VOROGUI* pVOROGUI, POINTSET* pPOINTSET, HDC hdc, int idpoint=POINTSET_ALL, FIBITMAP* dib=NULL, bool bVoroPolygons=true, bool bWithControls=true, bool bWithControlLabels=true);
+
+void VOROGUI_OnLButtonDown(VOROGUI* pVOROGUI, POINTSET* pPOINTSET, HWND hwnd, WPARAM wParam, LPARAM lParam);
+void VOROGUI_OnLButtonUp(VOROGUI* pVOROGUI, POINTSET* pPOINTSET, HWND hwnd, WPARAM wParam, LPARAM lParam);
+void VOROGUI_OnRButtonUp(VOROGUI* pVOROGUI, POINTSET* pPOINTSET, HWND hwnd, WPARAM wParam, LPARAM lParam);
+
+POINTSET* VOROGUI_ReadFromDisk(VOROGUI* pVOROGUI);
+void VOROGUI_WriteToDisk(VOROGUI* pVOROGUI, POINTSET* pPOINTSET);
+
+void VOROGUI_UpdateControlsFromParameters(VOROGUI* pVOROGUI, POINTSET* pPOINTSET);
+//2021nov29, spi, end
+
+#endif

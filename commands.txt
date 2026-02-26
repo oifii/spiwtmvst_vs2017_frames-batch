@@ -1,0 +1,1 @@
+c:\video\ffmpeg.exe -r 10 -s 1920x1080 -start_number 1 -i C:\oifii-org\httpdocs\ns-org\nsd\ar\cp\audio_spi\spiwindowtransparentmidivoroguispectrumtimeframe_frames-batch\frames\frame_%6d.bmp -vcodec libx264 -crf 25 -pix_fmt yuv420p c:\temp\spiwtmvstf-shuffle\_DSC1108_e01_copy_vorotrans-anim_frame_000001_img-shuffle.mp4

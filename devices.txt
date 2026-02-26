@@ -1,0 +1,516 @@
+--------------------------------------- device #0
+id=0, hostapi=MME, devicename=Microsoft Sound Mapper - Input
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #1
+[ Default Input ]
+id=1, hostapi=MME, devicename=Microphone (Realtek(R) Audio)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #2
+id=2, hostapi=MME, devicename=CABLE Output (VB-Audio Virtual 
+Max inputs = 8, Max outputs = 0
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #3
+id=3, hostapi=MME, devicename=Line (USB AUDIO  CODEC)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #4
+id=4, hostapi=MME, devicename=CABLE-A Output (VB-Audio Cable 
+Max inputs = 8, Max outputs = 0
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #5
+id=5, hostapi=MME, devicename=Headset (TP 18 Hands-Free AG Au
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #6
+id=6, hostapi=MME, devicename=Microphone (USB Condenser Micro
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #7
+id=7, hostapi=MME, devicename=Microsoft Sound Mapper - Output
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #8
+[ Default Output ]
+id=8, hostapi=MME, devicename=55S425CA (NVIDIA High Definitio
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #9
+id=9, hostapi=MME, devicename=55S425CA (Intel(R) Display Audi
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #10
+id=10, hostapi=MME, devicename=Speakers (USB AUDIO  CODEC)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #11
+id=11, hostapi=MME, devicename=Headphones (2- TP 18 Stereo)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #12
+id=12, hostapi=MME, devicename=Speakers/Headphones (Realtek(R)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #13
+id=13, hostapi=MME, devicename=Headset (TP 18 Hands-Free AG Au
+Max inputs = 0, Max outputs = 1
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #14
+id=14, hostapi=MME, devicename=CABLE-A Input (VB-Audio Virtual
+Max inputs = 0, Max outputs = 8
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #15
+id=15, hostapi=MME, devicename=CABLE-A Input (VB-Audio Cable A
+Max inputs = 0, Max outputs = 8
+Default low input latency   =   0.0900
+Default low output latency  =   0.0900
+Default high input latency  =   0.1800
+Default high output latency =   0.1800
+--------------------------------------- device #16
+[ Default Windows DirectSound Input ]
+id=16, hostapi=Windows DirectSound, devicename=Primary Sound Capture Driver
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.1200
+Default low output latency  =   0.0000
+Default high input latency  =   0.2400
+Default high output latency =   0.0000
+--------------------------------------- device #17
+id=17, hostapi=Windows DirectSound, devicename=Microphone (Realtek(R) Audio)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.1200
+Default low output latency  =   0.0000
+Default high input latency  =   0.2400
+Default high output latency =   0.0000
+--------------------------------------- device #18
+id=18, hostapi=Windows DirectSound, devicename=CABLE Output (VB-Audio Virtual Cable)
+Max inputs = 8, Max outputs = 0
+Default low input latency   =   0.1200
+Default low output latency  =   0.0000
+Default high input latency  =   0.2400
+Default high output latency =   0.0000
+--------------------------------------- device #19
+id=19, hostapi=Windows DirectSound, devicename=Line (USB AUDIO  CODEC)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.1200
+Default low output latency  =   0.0000
+Default high input latency  =   0.2400
+Default high output latency =   0.0000
+--------------------------------------- device #20
+id=20, hostapi=Windows DirectSound, devicename=CABLE-A Output (VB-Audio Cable A)
+Max inputs = 8, Max outputs = 0
+Default low input latency   =   0.1200
+Default low output latency  =   0.0000
+Default high input latency  =   0.2400
+Default high output latency =   0.0000
+--------------------------------------- device #21
+id=21, hostapi=Windows DirectSound, devicename=Headset (TP 18 Hands-Free AG Audio)
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.1200
+Default low output latency  =   0.0000
+Default high input latency  =   0.2400
+Default high output latency =   0.0000
+--------------------------------------- device #22
+id=22, hostapi=Windows DirectSound, devicename=Microphone (USB Condenser Microphone)
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.1200
+Default low output latency  =   0.0000
+Default high input latency  =   0.2400
+Default high output latency =   0.0000
+--------------------------------------- device #23
+[ Default Windows DirectSound Output ]
+id=23, hostapi=Windows DirectSound, devicename=Primary Sound Driver
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.1200
+Default high input latency  =   0.0000
+Default high output latency =   0.2400
+--------------------------------------- device #24
+id=24, hostapi=Windows DirectSound, devicename=55S425CA (NVIDIA High Definition Audio)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.1200
+Default high input latency  =   0.0000
+Default high output latency =   0.2400
+--------------------------------------- device #25
+id=25, hostapi=Windows DirectSound, devicename=55S425CA (Intel(R) Display Audio)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.1200
+Default high input latency  =   0.0000
+Default high output latency =   0.2400
+--------------------------------------- device #26
+id=26, hostapi=Windows DirectSound, devicename=Speakers (USB AUDIO  CODEC)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.1200
+Default high input latency  =   0.0000
+Default high output latency =   0.2400
+--------------------------------------- device #27
+id=27, hostapi=Windows DirectSound, devicename=Headphones (2- TP 18 Stereo)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.1200
+Default high input latency  =   0.0000
+Default high output latency =   0.2400
+--------------------------------------- device #28
+id=28, hostapi=Windows DirectSound, devicename=Speakers/Headphones (Realtek(R) Audio)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.1200
+Default high input latency  =   0.0000
+Default high output latency =   0.2400
+--------------------------------------- device #29
+id=29, hostapi=Windows DirectSound, devicename=Headset (TP 18 Hands-Free AG Audio)
+Max inputs = 0, Max outputs = 1
+Default low input latency   =   0.0000
+Default low output latency  =   0.1200
+Default high input latency  =   0.0000
+Default high output latency =   0.2400
+--------------------------------------- device #30
+id=30, hostapi=Windows DirectSound, devicename=CABLE-A Input (VB-Audio Virtual Cable)
+Max inputs = 0, Max outputs = 8
+Default low input latency   =   0.0000
+Default low output latency  =   0.1200
+Default high input latency  =   0.0000
+Default high output latency =   0.2400
+--------------------------------------- device #31
+id=31, hostapi=Windows DirectSound, devicename=CABLE-A Input (VB-Audio Cable A)
+Max inputs = 0, Max outputs = 8
+Default low input latency   =   0.0000
+Default low output latency  =   0.1200
+Default high input latency  =   0.0000
+Default high output latency =   0.2400
+--------------------------------------- device #32
+id=32, hostapi=Windows WASAPI, devicename=55S425CA (Intel(R) Display Audio)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.0030
+Default high input latency  =   0.0000
+Default high output latency =   0.0100
+--------------------------------------- device #33
+[ Default Windows WASAPI Output ]
+id=33, hostapi=Windows WASAPI, devicename=55S425CA (NVIDIA High Definition Audio)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.0030
+Default high input latency  =   0.0000
+Default high output latency =   0.0100
+--------------------------------------- device #34
+id=34, hostapi=Windows WASAPI, devicename=Speakers (USB AUDIO  CODEC)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.0030
+Default high input latency  =   0.0000
+Default high output latency =   0.0100
+--------------------------------------- device #35
+id=35, hostapi=Windows WASAPI, devicename=Headphones (2- TP 18 Stereo)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.0030
+Default high input latency  =   0.0000
+Default high output latency =   0.0100
+--------------------------------------- device #36
+id=36, hostapi=Windows WASAPI, devicename=Speakers/Headphones (Realtek(R) Audio)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.0030
+Default high input latency  =   0.0000
+Default high output latency =   0.0100
+--------------------------------------- device #37
+id=37, hostapi=Windows WASAPI, devicename=Headset (TP 18 Hands-Free AG Audio)
+Max inputs = 0, Max outputs = 1
+Default low input latency   =   0.0000
+Default low output latency  =   0.0030
+Default high input latency  =   0.0000
+Default high output latency =   0.0100
+--------------------------------------- device #38
+id=38, hostapi=Windows WASAPI, devicename=CABLE-A Input (VB-Audio Virtual Cable)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.0030
+Default high input latency  =   0.0000
+Default high output latency =   0.0100
+--------------------------------------- device #39
+id=39, hostapi=Windows WASAPI, devicename=CABLE-A Input (VB-Audio Cable A)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0000
+Default low output latency  =   0.0030
+Default high input latency  =   0.0000
+Default high output latency =   0.0100
+--------------------------------------- device #40
+id=40, hostapi=Windows WASAPI, devicename=CABLE Output (VB-Audio Virtual Cable)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0030
+Default low output latency  =   0.0000
+Default high input latency  =   0.0100
+Default high output latency =   0.0000
+--------------------------------------- device #41
+id=41, hostapi=Windows WASAPI, devicename=Line (USB AUDIO  CODEC)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0030
+Default low output latency  =   0.0000
+Default high input latency  =   0.0100
+Default high output latency =   0.0000
+--------------------------------------- device #42
+id=42, hostapi=Windows WASAPI, devicename=CABLE-A Output (VB-Audio Cable A)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0030
+Default low output latency  =   0.0000
+Default high input latency  =   0.0100
+Default high output latency =   0.0000
+--------------------------------------- device #43
+[ Default Windows WASAPI Input ]
+id=43, hostapi=Windows WASAPI, devicename=Microphone (Realtek(R) Audio)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0030
+Default low output latency  =   0.0000
+Default high input latency  =   0.0100
+Default high output latency =   0.0000
+--------------------------------------- device #44
+id=44, hostapi=Windows WASAPI, devicename=Headset (TP 18 Hands-Free AG Audio)
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.0030
+Default low output latency  =   0.0000
+Default high input latency  =   0.0100
+Default high output latency =   0.0000
+--------------------------------------- device #45
+id=45, hostapi=Windows WASAPI, devicename=Microphone (USB Condenser Microphone)
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.0030
+Default low output latency  =   0.0000
+Default high input latency  =   0.0100
+Default high output latency =   0.0000
+--------------------------------------- device #46
+id=46, hostapi=Windows WDM-KS, devicename=CABLE Output (VB-Audio Point)
+Max inputs = 8, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #47
+id=47, hostapi=Windows WDM-KS, devicename=Speakers (VB-Audio Point)
+Max inputs = 0, Max outputs = 8
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #48
+id=48, hostapi=Windows WDM-KS, devicename=Speakers (Realtek HD Audio output)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0400
+Default high output latency =   0.0400
+--------------------------------------- device #49
+[ Default Windows WDM-KS Input ]
+id=49, hostapi=Windows WDM-KS, devicename=Microphone (Realtek HD Audio Mic input)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0400
+Default high output latency =   0.0400
+--------------------------------------- device #50
+id=50, hostapi=Windows WDM-KS, devicename=Stereo Mix (Realtek HD Audio Stereo input)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0400
+Default high output latency =   0.0400
+--------------------------------------- device #51
+id=51, hostapi=Windows WDM-KS, devicename=Microphone (USB Condenser Microphone)
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #52
+id=52, hostapi=Windows WDM-KS, devicename=Output (Intel(R) Display Audio Output 1.1)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0400
+Default high output latency =   0.0400
+--------------------------------------- device #53
+id=53, hostapi=Windows WDM-KS, devicename=Output (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(huaweidroide))
+Max inputs = 0, Max outputs = 1
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #54
+id=54, hostapi=Windows WDM-KS, devicename=Input (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(huaweidroide))
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #55
+id=55, hostapi=Windows WDM-KS, devicename=CABLE-A Output (VB-Audio CABLE-A)
+Max inputs = 8, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #56
+id=56, hostapi=Windows WDM-KS, devicename=Speakers (VB-Audio CABLE-A)
+Max inputs = 0, Max outputs = 8
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #57
+[ Default Windows WDM-KS Output ]
+id=57, hostapi=Windows WDM-KS, devicename=Output (NVIDIA High Definition Audio)
+Max inputs = 0, Max outputs = 8
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0400
+Default high output latency =   0.0400
+--------------------------------------- device #58
+id=58, hostapi=Windows WDM-KS, devicename=Output (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(HUAWEIP30DROIDE))
+Max inputs = 0, Max outputs = 1
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #59
+id=59, hostapi=Windows WDM-KS, devicename=Input (@System32\drivers\bthhfenum.sys,#4;%1 Hands-Free HF Audio%0
+;(HUAWEIP30DROIDE))
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #60
+id=60, hostapi=Windows WDM-KS, devicename=Line ()
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #61
+id=61, hostapi=Windows WDM-KS, devicename=Headphones ()
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #62
+id=62, hostapi=Windows WDM-KS, devicename=Speakers (USB AUDIO  CODEC)
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #63
+id=63, hostapi=Windows WDM-KS, devicename=Line (USB AUDIO  CODEC)
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #64
+id=64, hostapi=Windows WDM-KS, devicename=Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free AG Audio%0
+;(TP 18))
+Max inputs = 0, Max outputs = 1
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #65
+id=65, hostapi=Windows WDM-KS, devicename=Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free AG Audio%0
+;(TP 18))
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #66
+id=66, hostapi=Windows WDM-KS, devicename=Headphones ()
+Max inputs = 0, Max outputs = 2
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #67
+id=67, hostapi=Windows WDM-KS, devicename=Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free AG Audio%0
+;(TP 18))
+Max inputs = 0, Max outputs = 1
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #68
+id=68, hostapi=Windows WDM-KS, devicename=Headset (@System32\drivers\bthhfenum.sys,#2;%1 Hands-Free AG Audio%0
+;(TP 18))
+Max inputs = 1, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+--------------------------------------- device #69
+id=69, hostapi=Windows WDM-KS, devicename=Line ()
+Max inputs = 2, Max outputs = 0
+Default low input latency   =   0.0100
+Default low output latency  =   0.0100
+Default high input latency  =   0.0853
+Default high output latency =   0.0853
+----------------------------------------------
+
+warning: hostapi has NOT been specified
+global_audioinputhostapi=, global_audioinputdevicename=CABLE-A Output (VB-Audio Cable 
+success: matching device found, CABLE-A Output (VB-Audio Cable  will be retained.
+warning: more than one matching device found, CABLE-A Output (VB-Audio Cable A) will be ignored.
+hostapi has been specified:
+global_audiooutputhostapi=MME, global_audiooutputdevicename=TP 18 Stereo
+success: matching hostapi found, MME will be retained.
+success: matching device found, Headphones (2- TP 18 Stereo) will be retained.

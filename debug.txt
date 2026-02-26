@@ -1,0 +1,72 @@
+global_horizontalforcefit is 0.500000
+global_verticalforcefit is 0.500000
+
+
+detecting monitors id 1 (left 0, right 1920, top 0, bottom 1080)
+detecting monitors id 1 (hmonitor: dec 65537, hex 0x0000000000010001)
+detecting monitors id 2 (left -2595, right 1245, top -2160, bottom 0)
+detecting monitors id 2 (hmonitor: dec 65539, hex 0x0000000000010003)
+detecting monitors id 3 (left 1245, right 5085, top -2163, bottom -3)
+detecting monitors id 3 (hmonitor: dec 65541, hex 0x0000000000010005)
+combined global rectangle from all monitors (left -2595, right 5085, top -2163, bottom 1080)
+
+detecting the following windows (window classname listing):
+
+hwnd,windowclassname 330840,         spiwindowtransparentclassVOROGS
+hwnd,windowclassname 3082830,         spiwindowtransparentclassVOROSS
+
+
+detecting the following windows (window title listing):
+
+hwnd,windowtitle 330840,                     myvorogswindowtitle
+hwnd,windowtitle 3082830,                     myvorosswindowtitle
+
+before horizontal justification
+global_x, global_y, mySIZE.cx, mySIZE.cy are -858993460 -858993460 4 19
+global_fontheight is 0
+
+after horizontal justification
+global_x, global_y, mySIZE.cx, mySIZE.cy are -858993460 -858993460 4 19
+global_fontheight is 0
+
+before vertical justification
+global_x, global_y, mySIZE.cx, mySIZE.cy are -858993460 -858993460 4 19
+global_fontheight is 0
+
+after vertical justification
+global_x, global_y, mySIZE.cx, mySIZE.cy are -858993460 -858993460 4 19
+global_fontheight is 0
+
+before horizontal force fit
+before vertical force fit
+global_x, global_y, mySIZE.cx, mySIZE.cy are -858993460 -858993460 4 19
+global_fontheight is 0
+
+before horizontal justification
+global_x, global_y, mySIZE.cx, mySIZE.cy are 480 270 4 19
+global_fontheight is 0
+
+after horizontal justification
+global_x, global_y, mySIZE.cx, mySIZE.cy are 480 270 4 19
+global_fontheight is 0
+
+before vertical justification
+global_x, global_y, mySIZE.cx, mySIZE.cy are 480 270 4 19
+global_fontheight is 0
+
+after vertical justification
+global_x, global_y, mySIZE.cx, mySIZE.cy are 480 270 4 19
+global_fontheight is 0
+
+after horizontal force fit
+after vertical force fit
+global_x, global_y, mySIZE.cx, mySIZE.cy are 480 270 4 19
+global_fontheight is 0
+
+displaying string   at:
+
+global_x, global_y, mySIZE.cx, mySIZE.cy are 480 270 4 19
+
+
+SetLayeredWindowAttributes() with global_alpha 100
+SetTimer() ID_TIMER_ONCEKILL with global_endtime_sec 1

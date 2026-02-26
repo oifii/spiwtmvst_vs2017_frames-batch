@@ -1,0 +1,36 @@
+﻿*************************************************************************************************************************************************
+cwindowtransparent history
+*************************************************************************************************************************************************
+2016may07
+
+bringing cwindow to the oifii's audio_spi standard,
+that is having all windows transparent, overlay and popup
+with optional menu, title bar and borders.
+
+spi.
+
+
+
+
+
+
+
+
+
+*************************************************************************************************************************************************
+cwindow history
+*************************************************************************************************************************************************
+2016may05
+
+https://github.com/sotogarcia/CWindow
+
+sotogarcia's code had major problems, 
+it was not running and had memory leaks
+
+spi (stephane poirier) fixed these bugs
+in order to reuse this win32 oo model.
+
+there is a remaining issue with not
+calling DestroyWindow() on all created
+HWND. is this leading to memory leak?
+to be investigated, spi.
